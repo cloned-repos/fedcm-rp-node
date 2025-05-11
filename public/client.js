@@ -21,7 +21,7 @@
 import {
   html,
   render
-} from 'https://unpkg.com/lit-html@2.2.0/lit-html.js?module'
+} from './lit-html/lit-html.js'
 
 export const $ = document.querySelector.bind(document)
 
@@ -73,6 +73,7 @@ class Loading {
 export const loading = new Loading()
 
 export const getCredential = async config => {
+  console.log('getting credential');
   const nonce = $('meta[name="nonce"]').content
   // MultiIDP is only available as behind a feature flag
   const providers = config.idpConfig.map(idp => {

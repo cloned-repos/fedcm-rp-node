@@ -34,18 +34,18 @@ body {
 .credential {
   margin: 10px 0 20px 0;
   padding: 10px;
-  
-  > span {
+
+  >span {
     overflow: hidden;
     font-weight: bold;
     white-space: nowrap;
-    text-overflow: ellipsis;    
+    text-overflow: ellipsis;
   }
 }
 
 mwc-button {
   margin: 8px 0;
-  
+
   a {
     text-decoration: none;
     color: inherit;
@@ -53,13 +53,13 @@ mwc-button {
 }
 
 .iframe-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .iframe-container iframe {
-    border: none;
+  border: none;
 }
 
 
@@ -106,24 +106,22 @@ mwc-button {
     width: 30%;
     text-align: left;
   }
-  
-  .config-item mwc-switch
-  .config-item mwc-select
-  .config-item mwc-textfield {
+
+  .config-item mwc-switch .config-item mwc-select .config-item mwc-textfield {
     width: 70%;
   }
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 100%;
     margin: auto;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-  
+
     &:hover {
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     }
   }
 }
